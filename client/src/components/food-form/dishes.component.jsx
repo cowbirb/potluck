@@ -12,7 +12,7 @@ function Dishes (props) {
                 <input className='col-sm-10' placeholder="Add a Dish"></input>
                 <button className='col-sm-2'>+</button>
             </div>
-            <ul class='text-left d-flex justify-content-between'>
+            <ul className='float-left d-flex justify-content-between' class='list-group'>
                 {foods.map((food, index) => {
                     return(<Dish food={food} key={food.name + index}></Dish>);
                 })}
