@@ -8,7 +8,10 @@ function Dishes (props) {
     return (
         <div className={props.className}>
             {props.title}
-            <input></input>
+            <div className='row'>
+                <input className='col-sm-10' placeholder="Add a Dish"></input>
+                <button className='col-sm-2'>+</button>
+            </div>
             <ul>
                 {foods.map((food, index) => {
                     return(<Dish food={food} key={food.name + index}></Dish>);
