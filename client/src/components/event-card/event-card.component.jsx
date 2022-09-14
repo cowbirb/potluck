@@ -1,7 +1,6 @@
 import React from 'react';
 import FoodForm from '../food-form/food-form.component.jsx';
 import eventExamples from '../../../../server/src/sample-data/fake-events';
-// [{name: 'main dish', course: 'main'}, {name: 'side dish', course: 'side'}]
 
 const EventCard = () => {
     return (
